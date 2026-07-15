@@ -4,14 +4,14 @@ import os
 # =====================================================================
 # 1. CONFIGURAÇÕES DA EXTRAÇÃO (Atualize essas variáveis a cada vídeo)
 # =====================================================================
-p_id = "P1"             # ID do Praticante (Ex: P1 a P4 para treino, P5 para Sensei/val)
+p_id = "P3"             # ID do Praticante (Ex: P1 a P4 para treino, P5 para Sensei/val)
 angulo = "frontal"      # Ângulo (Ex: frontal, traseira, lat_dir, lat_esq)
 
 # O script vai iniciar neste número e somar +1 automaticamente a cada 'S' pressionado
-movimento_inicial = 1   
+movimento_inicial = 1
 
 # Caminho do vídeo já processado com o esqueleto e fundo preto (gerado pelo Script 1)
-video_path = "videos/P1_heian_shodan_frontal.mp4" 
+video_path = "videos/P3_esqueleto_karate.mp4"
 
 # =====================================================================
 # 2. INICIALIZAÇÃO DO PLAYER
@@ -69,7 +69,7 @@ while cap.isOpened():
         # Mapeia dinamicamente para onde essa imagem deve ir baseando-se no movimento atual
         # NOTA: O script vai criar a pasta dinamicamente se ela não existir.
         # Ajuste o nome da subpasta se decidir usar o mapeamento exato de nomes de classes feito na etapa anterior!
-        pasta_destino = "dataset_karate/train/praticante_01"
+        pasta_destino = "captured_screens"
         os.makedirs(pasta_destino, exist_ok=True)
         
         # Monta o nome científico do arquivo
