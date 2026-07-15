@@ -11,7 +11,7 @@ angulo = "frontal"      # Ângulo (Ex: frontal, traseira, lat_dir, lat_esq)
 movimento_inicial = 1   
 
 # Caminho do vídeo já processado com o esqueleto e fundo preto (gerado pelo Script 1)
-video_path = "heian_shodan.mp4" 
+video_path = "videos/P1_heian_shodan_frontal.mp4" 
 
 # =====================================================================
 # 2. INICIALIZAÇÃO DO PLAYER
