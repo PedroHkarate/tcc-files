@@ -6,8 +6,8 @@ from ultralytics import YOLO
 model = YOLO('yolo26x-pose.pt')
 
 # Caminho do vídeo de entrada e saída
-video_path = 'heian_shodan_7.mp4'
-output_path = 'P3_esqueleto_karate.mp4'
+video_path = 'videos/P5_heian_shodan_traseiro.mp4'
+output_path = 'P5_esqueleto_traseiro.mp4'
 
 # Abre o vídeo com OpenCV
 cap = cv2.VideoCapture(video_path)
