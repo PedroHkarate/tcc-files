@@ -9,45 +9,45 @@ pasta_destino_kfold = "dataset_kfold"
 
 # Lista oficial de praticantes para o Group K-Fold
 # praticantes = ["P1", "P2", "P3", "P4", "P5"]
-praticantes = ["P1", "P2", "P3"]
+praticantes = ["P1", "P2", "P3", "P4", "P5"]
 # =====================================================================
 # 2. MAPEAMENTO OFICIAL DO HEIAN SHODAN (Sua lógica de negócio)
 # =====================================================================
 mapeamento_movimentos = {
     # Gedan Barai
-    "mov01": "zenkutsu_gedan_barai_esquerdo",
-    "mov06": "zenkutsu_gedan_barai_esquerdo",
-    "mov10": "zenkutsu_gedan_barai_esquerdo",
-    "mov14": "zenkutsu_gedan_barai_esquerdo",
+    "mov01": "zenkutsu_gedan_barai_esq",
+    "mov06": "zenkutsu_gedan_barai_esq",
+    "mov10": "zenkutsu_gedan_barai_esq",
+    "mov14": "zenkutsu_gedan_barai_esq",
 
-    "mov03": "zenkutsu_gedan_barai_direito",
-    "mov12": "zenkutsu_gedan_barai_direito",
+    "mov03": "zenkutsu_gedan_barai_dir",
+    "mov12": "zenkutsu_gedan_barai_dir",
 
     # Oi Zuki
-    "mov05": "zenkutsu_oi_zuki_esquerdo",
-    "mov13": "zenkutsu_oi_zuki_esquerdo",
-    "mov16": "zenkutsu_oi_zuki_esquerdo",
+    "mov05": "zenkutsu_oi_zuki_esq",
+    "mov13": "zenkutsu_oi_zuki_esq",
+    "mov16": "zenkutsu_oi_zuki_esq",
 
-    "mov02": "zenkutsu_oi_zuki_direito",
-    "mov11": "zenkutsu_oi_zuki_direito",
-    "mov15": "zenkutsu_oi_zuki_direito",
-    "mov17": "zenkutsu_oi_zuki_direito",
+    "mov02": "zenkutsu_oi_zuki_dir",
+    "mov11": "zenkutsu_oi_zuki_dir",
+    "mov15": "zenkutsu_oi_zuki_dir",
+    "mov17": "zenkutsu_oi_zuki_dir",
 
     # Age Uke
-    "mov08": "zenkutsu_age_uke_esquerdo",
+    "mov08": "zenkutsu_age_uke_esq",
 
-    "mov07": "zenkutsu_age_uke_direito",
-    "mov09": "zenkutsu_age_uke_direito",
+    "mov07": "zenkutsu_age_uke_dir",
+    "mov09": "zenkutsu_age_uke_dir",
 
     # Tetsui
-    "mov04": "zenkutsu_tetsui_direito",
+    "mov04": "zenkutsu_tetsui_dir",
 
     # Shuto Uke
-    "mov18": "kokutsu_shuto_uke_esquerdo",
-    "mov21": "kokutsu_shuto_uke_esquerdo",
+    "mov18": "kokutsu_shuto_uke_esq",
+    "mov21": "kokutsu_shuto_uke_esq",
 
-    "mov19": "kokutsu_shuto_uke_direito",
-    "mov20": "kokutsu_shuto_uke_direito"
+    "mov19": "kokutsu_shuto_uke_dir",
+    "mov20": "kokutsu_shuto_uke_dir"
 }
 
 # CONTADORES PARA O RELATÓRIO FINAL
